@@ -7,7 +7,8 @@ Requirements
  - Microsoft Windows (Tested with 7, Server 2008)
  - ArmA 2 Combined Operations Dedicated Server (Steam users must merge ArmA2 and ArmA2 OA Directories)
  - Latest ArmA 2 Operation Arrowhead Beta Patch (http://www.arma2.com/beta-patch.php)
- - Latest DayZ: Isladuala Client Files (http://dayzmod.com/?Download) 
+ - Latest DayZ: Isladuala Client Files (http://opendayz.net/downloads/DayZIsladuala/@DayZIsladuala-1.0.zip)
+ - Latest DayZ: Isladuala Client Upgrade (http://opendayz.net/downloads/DayZIsladuala/@DayZIsladuala-1.1.zip)
  - MySQL Database program such as Navicat or MySQL Workbench
  - Microsoft Visual C++ 2010 SP1 x86 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)
  
