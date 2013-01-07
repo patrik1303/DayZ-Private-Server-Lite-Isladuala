@@ -10,7 +10,7 @@ if "%killmsgs%"=="N" goto disable
 goto menu
 
 :enable
-Resources\wget.exe -N --no-check-certificate https://github.com/Stapo/DayZ-Private-Server-Lite-Kill-Messages/blob/master/Chernarus/dayz_server.pbo?raw=true
+Resources\wget.exe -N --no-check-certificate https://github.com/Stapo/DayZ-Private-Server-Lite-Kill-Messages/blob/master/Isladuala/dayz_server.pbo?raw=true
 Resources\wget.exe -N --no-check-certificate https://github.com/Stapo/DayZ-Private-Server-Lite-Kill-Messages/raw/master/DayZ.ArmA2OAProfile
 move /y dayz_server.pbo ../@hive/Addons/
 move /y DayZ.ArmA2OAProfile ../DayZConfig/Users/DayZ/
@@ -22,8 +22,8 @@ pause
 exit
 
 :disable
-Resources\wget.exe -N --no-check-certificate https://github.com/Stapo/DayZ-Private-Server-Lite/blob/master/@hive/AddOns/dayz_server.pbo?raw=true
-Resources\wget.exe -N --no-check-certificate https://github.com/Stapo/DayZ-Private-Server-Lite/raw/master/DayZConfig/Users/DayZ/DayZ.ArmA2OAProfile
+Resources\wget.exe -N --no-check-certificate https://github.com/Stapo/DayZ-Private-Server-Lite-Isladuala/blob/master/@hive/AddOns/dayz_server.pbo?raw=true
+Resources\wget.exe -N --no-check-certificate https://github.com/Stapo/DayZ-Private-Server-Lite-Isladuala/raw/master/DayZConfig/Users/DayZ/DayZ.ArmA2OAProfile
 move /y dayz_server.pbo ../@hive/Addons/
 move /y DayZ.ArmA2OAProfile ../DayZConfig/Users/DayZ/
 cls
